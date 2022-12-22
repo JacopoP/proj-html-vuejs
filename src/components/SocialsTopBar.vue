@@ -15,7 +15,6 @@ export default {
     },
     mounted() {
         this.socialsArray = this.selectSocials;
-        console.log(this.socialsArray);
     }
 }
 </script>

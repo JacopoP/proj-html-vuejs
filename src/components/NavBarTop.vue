@@ -49,7 +49,7 @@ ul {
     flex-grow: 1;
     font-weight: bold;
     font-size: 1.3rem;
-    color: #373839;
+    color: $cape-cod;
 
     li {
         height: $li-heigth;
