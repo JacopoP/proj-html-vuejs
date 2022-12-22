@@ -13,7 +13,10 @@ import { faSuitcase } from '@fortawesome/free-solid-svg-icons'
 import { faRocket } from '@fortawesome/free-solid-svg-icons'
 import { faThumbsUp } from '@fortawesome/free-solid-svg-icons'
 import { faGear } from '@fortawesome/free-solid-svg-icons'
-library.add(faFacebook, faLinkedin, faTwitter, faInstagram, faSignal, faListUl, faClock, faSuitcase, faRocket, faThumbsUp, faGear)
+import { faUserGroup } from '@fortawesome/free-solid-svg-icons'
+import { faFilm } from '@fortawesome/free-solid-svg-icons'
+import { faImage } from '@fortawesome/free-solid-svg-icons'
+library.add(faFacebook, faLinkedin, faTwitter, faInstagram, faSignal, faListUl, faClock, faSuitcase, faRocket, faThumbsUp, faGear, faUserGroup, faFilm, faImage)
 
 import App from './App.vue'
 
