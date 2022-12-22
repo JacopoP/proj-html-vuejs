@@ -9,7 +9,11 @@ import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { faSignal } from '@fortawesome/free-solid-svg-icons'
 import { faListUl } from '@fortawesome/free-solid-svg-icons'
 import { faClock } from '@fortawesome/free-regular-svg-icons'
-library.add(faFacebook, faLinkedin, faTwitter, faInstagram, faSignal, faListUl, faClock)
+import { faSuitcase } from '@fortawesome/free-solid-svg-icons'
+import { faRocket } from '@fortawesome/free-solid-svg-icons'
+import { faThumbsUp } from '@fortawesome/free-solid-svg-icons'
+import { faGear } from '@fortawesome/free-solid-svg-icons'
+library.add(faFacebook, faLinkedin, faTwitter, faInstagram, faSignal, faListUl, faClock, faSuitcase, faRocket, faThumbsUp, faGear)
 
 import App from './App.vue'
 

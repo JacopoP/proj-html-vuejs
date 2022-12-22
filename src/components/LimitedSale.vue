@@ -83,7 +83,7 @@ $form-height: 60px;
             width: 135px;
             height: $form-height;
             border-radius: calc($form-height / 2);
-            font-size: 1.3rem;
+            font-size: 1rem;
             text-align: center;
         }
     }

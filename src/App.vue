@@ -4,6 +4,7 @@ import Jumbo from './components/Jumbotron.vue'
 import Founder from './components/FounderApp.vue'
 import NewCourses from './components/NewCoursesApp.vue'
 import BookApp from './components/BookApp.vue'
+import WhyCourse from './components/WhyCoursesApp.vue'
 export default {
   components: {
     Header,
@@ -11,6 +12,7 @@ export default {
     Founder,
     NewCourses,
     BookApp,
+    WhyCourse,
   }
 }
 </script>
@@ -24,6 +26,7 @@ export default {
     <Founder />
     <NewCourses />
     <BookApp />
+    <WhyCourse />
   </main>
 </template>
 
