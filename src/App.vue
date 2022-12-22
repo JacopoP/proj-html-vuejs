@@ -1,10 +1,12 @@
 <script>
 import Header from './components/HeaderApp.vue'
 import Jumbo from './components/Jumbotron.vue'
+import Founder from './components/FounderApp.vue'
 export default {
   components: {
     Header,
     Jumbo,
+    Founder,
   }
 }
 </script>
@@ -15,6 +17,7 @@ export default {
   </header>
   <main>
     <Jumbo />
+    <Founder />
   </main>
 </template>
 

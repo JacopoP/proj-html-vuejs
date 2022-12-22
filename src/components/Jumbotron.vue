@@ -18,7 +18,8 @@ export default {
 </script>
 
 <template>
-    <div id="container-jumbo" :style="'background-image: url(' + getImagePath('../assets/images/' + this.jumbo) + ')'">
+    <section id="container-jumbo"
+        :style="'background-image: url(' + getImagePath('../assets/images/' + this.jumbo) + ')'">
         <div id="text-container">
             <h1>
                 Start your Human <span>Revolution</span> today
@@ -29,7 +30,7 @@ export default {
             </p>
         </div>
         <Cta />
-    </div>
+    </section>
 </template>
 
 <style lang="scss" scoped>
