@@ -1,5 +1,9 @@
 <script>
+import Cta from './LimitedSale.vue';
 export default {
+    components: {
+        Cta,
+    },
     data() {
         return {
             jumbo: 'slide-1.jpg'
@@ -24,6 +28,7 @@ export default {
                 enjoy with my whole heart.
             </p>
         </div>
+        <Cta />
     </div>
 </template>
 
