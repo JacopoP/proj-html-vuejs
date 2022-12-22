@@ -1,8 +1,10 @@
 <script>
 import Header from './components/HeaderApp.vue'
+import Jumbo from './components/Jumbotron.vue'
 export default {
   components: {
     Header,
+    Jumbo,
   }
 }
 </script>
@@ -12,7 +14,7 @@ export default {
     <Header />
   </header>
   <main>
-
+    <Jumbo />
   </main>
 </template>
 
@@ -20,9 +22,14 @@ export default {
 @use './style/myStyle.scss';
 
 header {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 100;
+  // position: fixed;
+  // top: 0;
+  // width: 100%;
+  // z-index: 100;
+  // background-color: #fff;
+}
+
+main {
+  margin-top: 145px;
 }
 </style>
