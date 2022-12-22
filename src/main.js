@@ -6,7 +6,10 @@ import { faFacebook } from '@fortawesome/free-brands-svg-icons'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { faInstagram } from '@fortawesome/free-brands-svg-icons'
-library.add(faFacebook, faLinkedin, faTwitter, faInstagram)
+import { faSignal } from '@fortawesome/free-solid-svg-icons'
+import { faListUl } from '@fortawesome/free-solid-svg-icons'
+import { faClock } from '@fortawesome/free-regular-svg-icons'
+library.add(faFacebook, faLinkedin, faTwitter, faInstagram, faSignal, faListUl, faClock)
 
 import App from './App.vue'
 

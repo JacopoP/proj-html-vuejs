@@ -2,11 +2,13 @@
 import Header from './components/HeaderApp.vue'
 import Jumbo from './components/Jumbotron.vue'
 import Founder from './components/FounderApp.vue'
+import NewCourses from './components/NewCoursesApp.vue'
 export default {
   components: {
     Header,
     Jumbo,
     Founder,
+    NewCourses,
   }
 }
 </script>
@@ -18,6 +20,7 @@ export default {
   <main>
     <Jumbo />
     <Founder />
+    <NewCourses />
   </main>
 </template>
 
