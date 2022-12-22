@@ -56,5 +56,68 @@ export const store = reactive({
             link: '#',
             icon: 'fa-brands fa-twitter'
         }
+    ],
+
+    courses: [
+        {
+            poster: 'photo-1496307042754-b4aa456c4a2d-740x400.jpeg',
+            title: 'How to be a DJ? Make Electronic Music',
+            category: 'Electronic',
+            difficulty: 'Advanced',
+            nLectures: 8,
+            hours: 6,
+            isSpecial: true,
+            price: 59,
+        },
+        {
+            poster: '12345-1-740x400.png',
+            title: 'Nvidia and UE4 Technologies Practice',
+            category: 'Nvidia',
+            difficulty: 'advanced',
+            nLectures: 8,
+            hours: 6,
+            isSpecial: true,
+            price: 59,
+        },
+        {
+            poster: 'photo-1491897554428-130a60dd4757-740x400.jpeg',
+            title: 'Fashion Photography from professional',
+            category: 'fashion',
+            difficulty: 'advanced',
+            nLectures: 6,
+            hours: 6,
+            isSpecial: true,
+            price: 59,
+        },
+        {
+            poster: 'photo-1416339134316-0e91dc9ded92-740x400.jpeg',
+            title: 'Design Instruments for Communication',
+            category: 'Design',
+            difficulty: 'Intermediate',
+            nLectures: 6,
+            hours: 6,
+            isSpecial: false,
+            price: 59,
+        },
+        {
+            poster: 'cathryn-lavery-67852-unsplash-740x400.jpg',
+            title: 'Make your Concept Right and Beautiful',
+            category: 'Art',
+            difficulty: 'Intermediate',
+            nLectures: 6,
+            hours: 6,
+            isSpecial: false,
+            price: 59,
+        },
+        {
+            poster: 'photo-1475452779376-caebfb988090-740x400.jpeg',
+            title: 'Road Bike Manual or How to Be a Champion',
+            category: 'Bicycling',
+            difficulty: 'Beginner',
+            nLectures: 6,
+            hours: 6,
+            isSpecial: false,
+            price: 59,
+        },
     ]
 })
