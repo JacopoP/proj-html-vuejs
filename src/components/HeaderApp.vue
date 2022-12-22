@@ -1,8 +1,10 @@
 <script>
-import NavBar from './NavBarTop.vue'
+import NavBar from './NavBarTop.vue';
+import SocialsTopBar from './SocialsTopBar.vue';
 export default {
     components: {
         NavBar,
+        SocialsTopBar,
     },
     data() {
         return {
@@ -22,7 +24,7 @@ export default {
         <img :src="getImagePath('../assets/images/' + logo)" alt="Logo MasterStudy">
         <nav>
             <NavBar />
-
+            <SocialsTopBar />
         </nav>
     </div>
 </template>

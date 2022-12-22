@@ -34,4 +34,27 @@ export const store = reactive({
         },
     ],
     topNavBarActive: 4,
+
+    socials: [
+        {
+            name: 'LinkedIn',
+            link: '#',
+            icon: 'fa-brands fa-linkedin'
+        },
+        {
+            name: 'Instagram',
+            link: '#',
+            icon: 'fa-brands fa-instagram'
+        },
+        {
+            name: 'Facebook',
+            link: '#',
+            icon: 'fa-brands fa-facebook'
+        },
+        {
+            name: 'Twitter',
+            link: '#',
+            icon: 'fa-brands fa-twitter'
+        }
+    ]
 })
