@@ -142,4 +142,44 @@ export const store = reactive({
         },
     ],
     reviewActive: 1,
+
+    botNavItems: [
+        {
+            text: 'Blog',
+            link: '#',
+        },
+        {
+            text: 'Courses',
+            link: '#',
+        },
+        {
+            text: 'Home',
+            link: '#',
+        },
+        {
+            text: 'Membreship A...',
+            link: '#',
+        },
+        {
+            text: 'Shortcodes',
+            link: '#',
+        },
+        {
+            text: 'Typography',
+            link: '#',
+        },
+    ],
+
+    blogs: [
+        {
+            img: 'photo-1517520287167-4bbf64a00d66-122x120.jpeg',
+            title: 'Our main target is to "Developing Yourself as a Leader"',
+            date: '-- August 9, 2018'
+        },
+        {
+            img: 'photo-1490376840453-5f616fbebe5b-129x129.jpeg',
+            title: "Those Other College ExpensesYou Aren't Thinking About",
+            date: '-- June 3, 2015'
+        },
+    ]
 })
