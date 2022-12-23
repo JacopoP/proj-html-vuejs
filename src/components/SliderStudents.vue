@@ -42,6 +42,8 @@ export default {
     <h3>{{ store.studentsReviews[store.reviewActive].course }}</h3>
     <div id="vote">
         <font-awesome-icon v-for="index in store.studentsReviews[store.reviewActive].vote" icon="fa-solid fa-star" />
+        <font-awesome-icon v-for="index in (5 - store.studentsReviews[store.reviewActive].vote)"
+            icon="fa-regular fa-star" />
     </div>
     <p>{{ store.studentsReviews[store.reviewActive].text }}</p>
 </template>

@@ -125,7 +125,7 @@ export const store = reactive({
         {
             studentImg: '1-100x100.jpg',
             course: 'Sample course',
-            vote: 5,
+            vote: 1,
             text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem sint perspiciatis nostrum architecto nam laboriosam temporibus facere ad! Iste voluptatibus sit voluptate quam neque eos, recusandae officia expedita debitis repudiandae?'
         },
         {
@@ -137,7 +137,7 @@ export const store = reactive({
         {
             studentImg: '4-100x100.jpg',
             course: 'Sample course',
-            vote: 5,
+            vote: 4,
             text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem sint perspiciatis nostrum architecto nam laboriosam temporibus facere ad! Iste voluptatibus sit voluptate quam neque eos, recusandae officia expedita debitis repudiandae?'
         },
     ],

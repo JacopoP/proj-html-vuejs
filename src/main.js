@@ -17,9 +17,10 @@ import { faUserGroup } from '@fortawesome/free-solid-svg-icons'
 import { faFilm } from '@fortawesome/free-solid-svg-icons'
 import { faImage } from '@fortawesome/free-solid-svg-icons'
 import { faStar } from '@fortawesome/free-solid-svg-icons'
+import { faStar as faStarR } from '@fortawesome/free-regular-svg-icons'
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
-library.add(faFacebook, faLinkedin, faTwitter, faInstagram, faSignal, faListUl, faClock, faSuitcase, faRocket, faThumbsUp, faGear, faUserGroup, faFilm, faImage, faStar, faArrowLeft, faArrowRight)
+library.add(faFacebook, faLinkedin, faTwitter, faInstagram, faSignal, faListUl, faClock, faSuitcase, faRocket, faThumbsUp, faGear, faUserGroup, faFilm, faImage, faStar, faStarR, faArrowLeft, faArrowRight)
 
 import App from './App.vue'
 

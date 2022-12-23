@@ -19,6 +19,7 @@ export default {
 <style lang="scss" scoped>
 section {
     padding: 100px 0;
+    height: 670px;
 
     h2 {
         font-size: 3rem;
