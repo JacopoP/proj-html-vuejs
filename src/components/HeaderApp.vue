@@ -32,7 +32,7 @@ export default {
 <style lang="scss" scoped>
 .container {
     max-width: 1170px;
-    height: 145px;
+    height: 75px;
     display: flex;
     align-items: center;
     justify-content: space-between;
