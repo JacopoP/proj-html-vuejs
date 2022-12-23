@@ -6,6 +6,7 @@ export default {
     },
     data() {
         return {
+            // array qua perché improbabile che venga modificato frequentemente
             reasonsArray: [
                 {
                     icon: 'fa-solid fa-suitcase',

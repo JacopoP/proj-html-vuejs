@@ -1,6 +1,7 @@
 import { reactive } from "vue";
 
 export const store = reactive({
+    // elementi della nav nell'header
     topNavBarItems: [
         {
             text: 'Courses',
@@ -33,8 +34,10 @@ export const store = reactive({
             isActive: false,
         },
     ],
+    // elemento attivo della nav dell'header
     topNavBarActive: 4,
 
+    // social del sito e relativi link
     socials: [
         {
             name: 'LinkedIn',
@@ -58,6 +61,7 @@ export const store = reactive({
         }
     ],
 
+    // lista dei corse con le loro caratteristiche
     courses: [
         {
             poster: 'photo-1496307042754-b4aa456c4a2d-740x400.jpeg',
@@ -121,6 +125,7 @@ export const store = reactive({
         },
     ],
 
+    // lista delle recensioni lasciate dagli studenti
     studentsReviews: [
         {
             studentImg: '1-100x100.jpg',
@@ -141,8 +146,10 @@ export const store = reactive({
             text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem sint perspiciatis nostrum architecto nam laboriosam temporibus facere ad! Iste voluptatibus sit voluptate quam neque eos, recusandae officia expedita debitis repudiandae?'
         },
     ],
+    // indice della recensione attualmente in evidenza
     reviewActive: 1,
 
+    // lista degli elementi della nav nel footer
     botNavItems: [
         {
             text: 'Blog',
@@ -170,6 +177,7 @@ export const store = reactive({
         },
     ],
 
+    // lista dei blog nel footer con le relative caratteristiche
     blogs: [
         {
             img: 'photo-1517520287167-4bbf64a00d66-122x120.jpeg',

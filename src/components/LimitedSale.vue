@@ -12,9 +12,11 @@ export default {
         }
     },
     methods: {
+        // ripulisce l'email all'invio
         takeEmail: function () {
             this.emailIn = '';
         },
+        // fa scomparire il cta
         endOffer: function () {
             this.offerUp = false;
         }
@@ -31,6 +33,7 @@ export default {
                 <input type="submit" @click.prevent="this.takeEmail" value="SUBSCRIBE" class="white">
             </form>
         </div>
+        <!-- componente per il CountDown -->
         <CountDown @endOffer="endOffer" :end="dateEnd" />
     </div>
 </template>

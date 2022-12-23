@@ -9,6 +9,7 @@ export default {
         }
     },
     computed: {
+        // filtra i social voluti dai designer
         selectSocials: function () {
             return store.socials.filter((social) => this.socialsToShow.includes(social.name));
         }
@@ -21,6 +22,7 @@ export default {
 
 <template>
     <ul>
+        <!-- stampa le icone dei social -->
         <li v-for="(social, index) in socialsArray" :key="index">
             <a :href="social.link"><font-awesome-icon :icon="social.icon" /></a>
         </li>

@@ -10,9 +10,11 @@ export default {
         getImagePath: function (imgPath) {
             return new URL(imgPath, import.meta.url).href;
         },
+        // cambia recensione attiva al click sull'immagine
         changeActive: function (i) {
             store.reviewActive = i;
         },
+        // cambia attiva al click sulle frecce (-1 o +1)
         nextActive: function () {
             store.reviewActive++;
             if (store.reviewActive >= store.studentsReviews.length) {
@@ -39,9 +41,12 @@ export default {
         </div>
         <font-awesome-icon @click="this.nextActive()" class="arrow" icon="fa-solid fa-arrow-right" />
     </div>
+
     <h3>{{ store.studentsReviews[store.reviewActive].course }}</h3>
     <div id="vote">
+        <!-- stelle piene -->
         <font-awesome-icon v-for="index in store.studentsReviews[store.reviewActive].vote" icon="fa-solid fa-star" />
+        <!-- stelle vuote -->
         <font-awesome-icon v-for="index in (5 - store.studentsReviews[store.reviewActive].vote)"
             icon="fa-regular fa-star" />
     </div>

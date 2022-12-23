@@ -45,6 +45,7 @@ $special: #f09b23;
     position: relative;
     cursor: pointer;
 
+    // per i corsi con tag 'special'
     &.special::before {
         content: 'SPECIAL';
         color: #fff;

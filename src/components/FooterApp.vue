@@ -14,6 +14,7 @@ export default {
         },
     },
     mounted() {
+        // prende dall'array in store le specifiche dei social che si vuole inserire
         const auxArr = [];
         this.socialsToShow.forEach((social) => {
             store.socials.forEach(socialSpecs => {
@@ -40,11 +41,13 @@ export default {
                 </a>
             </div>
         </div>
+
         <div class="card-footer">
             <h3>CONTACT</h3>
             <p>USA, California 20, First Avenue, California<br><br>Tel.: &plus;1 212145830032<br>Fax: &plus;1
                 2123752412<br><br><span>info@masterstudy.com</span></p>
         </div>
+
         <div class="card-footer">
             <h3>PAGES</h3>
             <ul>
@@ -53,6 +56,7 @@ export default {
                 </li>
             </ul>
         </div>
+
         <div class="card-footer">
             <h3>BLOG</h3>
             <div v-for="(blog, index) in store.blogs" :key="index" class="blog-card">

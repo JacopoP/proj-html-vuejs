@@ -12,6 +12,7 @@ export default {
         }
     },
     methods: {
+        // calcola quanto manca al raggiungimento della data in secondi
         startInterval: function () {
             const now = new Date();
             this.timeLeft = (this.end - now) / 1000;
@@ -23,6 +24,7 @@ export default {
         const _minute = 60 * _seconds;
         const _hour = 60 * _minute;
         const _day = 24 * _hour;
+        // inizia ed aggiorna il countdown
         const countdown = setInterval(() => {
             if (this.timeLeft <= 0) {
                 this.$emit('endOffer');

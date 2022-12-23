@@ -7,6 +7,7 @@ export default {
         }
     },
     methods: {
+        // cambia l'elemento attivo nell'array
         makeActive: function () {
             const i = store.topNavBarActive;
             store.topNavBarItems.forEach((item, index) => {
@@ -18,6 +19,7 @@ export default {
                 }
             })
         },
+        // cambia l'indice dell'elemento attivo della navBar al click sull'elemento
         changeActive: function (i) {
             store.topNavBarActive = i;
             this.makeActive();
@@ -31,6 +33,7 @@ export default {
 
 <template>
     <ul>
+        <!-- stampa degli elementi della navBar -->
         <li v-for="(el, index) in store.topNavBarItems" :key="index" :class="{ active: el.isActive, new: el.isNew }"
             @click="changeActive(index)">
             <a :href="el.link">{{ el.text }}</a>

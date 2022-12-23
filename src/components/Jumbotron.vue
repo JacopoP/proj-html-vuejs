@@ -20,6 +20,7 @@ export default {
 <template>
     <section id="container-jumbo"
         :style="'background-image: url(' + getImagePath('../assets/images/' + this.jumbo) + ')'">
+        <!-- jumbotron effettivo -->
         <div id="text-container">
             <h1>
                 Start your Human <span>Revolution</span> today
@@ -29,6 +30,7 @@ export default {
                 enjoy with my whole heart.
             </p>
         </div>
+        <!-- cta ad iscriversi -->
         <Cta />
     </section>
 </template>
