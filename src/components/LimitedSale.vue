@@ -74,7 +74,8 @@ $form-height: 60px;
             width: calc(100% - 135px);
             outline: none;
             position: relative;
-            bottom: 2px;
+            bottom: 1px;
+            height: 100%;
         }
 
         input[type=submit] {
@@ -85,6 +86,7 @@ $form-height: 60px;
             border-radius: calc($form-height / 2);
             font-size: 1rem;
             text-align: center;
+            cursor: pointer;
         }
     }
 }

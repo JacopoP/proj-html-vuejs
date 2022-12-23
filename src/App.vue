@@ -6,6 +6,7 @@ import NewCourses from './components/NewCoursesApp.vue'
 import BookApp from './components/BookApp.vue'
 import WhyCourse from './components/WhyCoursesApp.vue'
 import SlideStats from './components/StatsSlideApp.vue'
+import StudentsReview from './components/StudentsReviewApp.vue'
 export default {
   components: {
     Header,
@@ -15,6 +16,7 @@ export default {
     BookApp,
     WhyCourse,
     SlideStats,
+    StudentsReview,
   }
 }
 </script>
@@ -30,6 +32,7 @@ export default {
     <BookApp />
     <WhyCourse />
     <SlideStats />
+    <StudentsReview />
   </main>
 </template>
 

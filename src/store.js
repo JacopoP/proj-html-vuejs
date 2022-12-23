@@ -119,5 +119,27 @@ export const store = reactive({
             isSpecial: false,
             price: 59,
         },
-    ]
+    ],
+
+    studentsReviews: [
+        {
+            studentImg: '1-100x100.jpg',
+            course: 'Sample course',
+            vote: 5,
+            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem sint perspiciatis nostrum architecto nam laboriosam temporibus facere ad! Iste voluptatibus sit voluptate quam neque eos, recusandae officia expedita debitis repudiandae?'
+        },
+        {
+            studentImg: '2-100x100.jpg',
+            course: 'Paint of the Future',
+            vote: 5,
+            text: 'The response to your MasterStudy has been really overwhelming! Those who partecipated in the workshop are spreading the word here in campus and the "buzz" is on. The VP of Instruction wants you to come back! Her goal is to have more faculty trained. She also wants to attend a workshop herself. Our President told me Masterstudy needs to be the cornerstone of our success program.'
+        },
+        {
+            studentImg: '4-100x100.jpg',
+            course: 'Sample course',
+            vote: 5,
+            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem sint perspiciatis nostrum architecto nam laboriosam temporibus facere ad! Iste voluptatibus sit voluptate quam neque eos, recusandae officia expedita debitis repudiandae?'
+        },
+    ],
+    reviewActive: 1,
 })
